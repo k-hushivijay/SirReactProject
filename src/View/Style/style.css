@@ -1,22 +1,218 @@
 .top{
     width: 100%;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(186, 186, 224);
 }
 .img{
-    height: 100%;
+    height: 200px;
    
-}
-.product{
-    margin: 20px;
-    width: 200px;
-    height: 300px;
-    background-color: rgb(155, 105, 105);
-}
-.mainproduct{
-    display: inline-flex;
 }
 .images{
     width: 100%;
     height: 100%;
+}
+
+.product{
+    width: 600px;
+    height: 600px;
+    display: block;
+    background-color: rgb(63, 63, 71);
+}
+
+
+    
+
+
+.detailPage{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(136, 29, 136);
+}
+.datamain{
+    width: 100%;
+    height: 500px;
+    background-color: chocolate;
+}
+.data{
+    width: 510px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    left: 380px;
+}
+.dataimg{
+    width: 100%;
+    height: 100%;
+}
+.dataname{
+    color: rgb(46, 44, 43);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.databtn{position: absolute;
+    top: 470px;
+    left: 750px;
+    border: 12px;
+    font-size: 30px;
+    transform: rotate();
+}
+
+
+
+
+
+
+.paymenthead{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(168, 156, 156);
+}
+.paymentform{
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    position: relative;
+    left: 350px;
+}
+.paymentform h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.payementmain{
+    width: 100%;
+    height: 500px;
+    background-color: crimson;
+    display: block;
+
+}
+.payementmain h3{
+    position: absolute;
+    left: 30px;
+}
+.nameinput{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    width: 500px;
+    height: 30px;
+}
+.h3{
+    position:absolute;
+    top:150px ;
+}
+.name-input{
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    width:500px;
+    height: 30px;
+}
+.pay-email{
+    position: absolute;
+    top: 250px;
+}
+.input-email{
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    height: 30px;
+    width: 500px;
+}
+.pay-pass{
+    position: absolute;
+    top: 350px;
+}
+.enter-pass{
+    position: absolute;
+    top: 410px;
+    left: 30px;
+    width: 500px;
+    height: 30px    ;
+}
+
+.submitbtn{
+    position: absolute;
+    left: 250px;
+    width: 100px;
+    height: 30px;
+   
+   
+}
+
+
+
+
+
+.loogin{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+}
+.log-head{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(233, 222, 222);
+    position: absolute;
+    top: 100px;
+}
+
+
+
+
+.log-head{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(184, 169, 169);
+    position: absolute;
+    left: 400px;
+}
+.log-head h1{
+    text-align: center;
+}
+.Sign-up{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(184, 169, 169);
+}
+.log-mid{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(141, 122, 122);
+    text-align: center;
+}
+.input-full-name{
+    position:absolute;
+    top: 100px;
+    left: 30px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(228, 214, 214);
+    
+}
+.input-email{
+    position:absolute;
+    top: 150px;
+    left: 30px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(228, 214, 214);
+}
+.input-password{
+    position:absolute;
+    top: 200px;
+    left: 30px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(228, 214, 214);
+
+
+}
+.log-footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(184, 169, 169);
+    text-align: center;
+}
+
+.product2{
+    display: inline-flex;
 }
